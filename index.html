@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="editBlock">
+        <div class="editRow">
+          <label class="itemLabel">姓名：</label>
+          <input class="itemInput name" />
+        </div>
+        <div class="editRow">
+          <label class="itemLabel">預訂時間：</label>
+          <input class="itemInput time" />
+        </div>
+        <button type="button" class="button" id="addButton">
+          新增
+        </button>
+      </div>
+      <div class="list">
+        <div class="card">
+          <div class="record name">Adele</div>
+          <div class="record time">16:30</div>
+          <div>
+            <button type="button" class="button editButton">
+              編輯
+            </button>
+            <button type="button" class="button deleteButton">
+              刪除
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
